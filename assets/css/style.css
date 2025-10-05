@@ -6,7 +6,7 @@ a{
     width: 160px;
 }
 .home-box{
-    background-color: #ff5005ef;
+    background-color: #ff5005c8;
     color: #ffffffef;
     padding: 30px 20px;
     border-radius: 8px;
@@ -41,13 +41,13 @@ a{
     height: 100vh;
 }
 .login-box{
-    background-color: #FEEBE7;
+    background-color: #f0f0f0;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .cadastro-box{
-    background-color: #FEEBE7;
+    background-color: #f0f0f0;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
