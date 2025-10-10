@@ -25,7 +25,7 @@ function renderPagConstrucao(req,res){
 };
 
 function cadastrarUsuario(req, res){
-    console.log(req.body);
+
     const{cpf, nome, sexo, email, senha, senhaConfirm} = req.body;
 
     const novoUsuario = new Usuario(

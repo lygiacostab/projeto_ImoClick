@@ -73,3 +73,64 @@ a{
     padding: 10px;
     z-index: 1000;
 }
+
+/*Estilo para o catálogo */
+#card-catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    width: 18rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #ff5005ef;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e65c00;
+}
+.catalogo-container {
+  display: flex;
+  flex-wrap: wrap; /* permite várias linhas */
+  justify-content: center; /* centraliza os cards */
+  gap: 30px; /* espaço entre eles */
+  padding: 40px 20px;
+  margin-top: 85px;
+}
+
+/* Cards um pouco maiores */
+.card {
+  width: 22rem;
+  min-width: 22rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  background-color: #ecececc3;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
